@@ -1,0 +1,29 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .pagesLinks{
+    @apply my-2 text-sm font-bold text-center px-2 tracking-wide 
+  }
+  .btnProduct{
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded uppercase
+  }
+  .centered{
+    @apply flex justify-center items-center
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
